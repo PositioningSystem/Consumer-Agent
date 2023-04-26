@@ -8,7 +8,13 @@
 
 - The publisher agent must be ready for use in any environment. E.g.:
 
-![Architecture2](https://user-images.githubusercontent.com/6643905/219717124-d5d2db80-e31b-42a9-854b-261e1c25ac43.png)
+- Fiware-based environment:
+    
+    ![Architecture2](https://user-images.githubusercontent.com/6643905/219717124-d5d2db80-e31b-42a9-854b-261e1c25ac43.png)
+
+- RabbitMQ-based environment:
+    
+    <img width="400" alt="ConsumerAgent" src="https://user-images.githubusercontent.com/6643905/234698911-7b352e30-3c0b-48f2-97ca-4bf5f82da89e.PNG">
 
 ## Requirements
 
