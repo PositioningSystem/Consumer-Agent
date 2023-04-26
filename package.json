@@ -1,0 +1,21 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/Recieve.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.8.0",
+    "pg": "^8.7.3",
+    "request": "^2.88.2",
+    "axios": "^0.21.1",
+    "https": "^1.0.0",
+    "sequelize": "^6.19.0"
+  }
+}

@@ -1,0 +1,13 @@
+version: "3.3"
+services:
+  consumer-agent:
+    build:
+      context: .
+    restart: always
+    volumes:
+      - ./src:/consumer-agent/src
+
+networks:
+   default:
+      external:
+         name: syntheticnet
